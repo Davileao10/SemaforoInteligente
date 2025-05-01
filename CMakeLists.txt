@@ -28,7 +28,7 @@ pico_sdk_init()
 include_directories(${CMAKE_SOURCE_DIR}/lib)
 
 add_executable(${PROJECT_NAME}  
-    blinkConta.c 
+    main.c 
     lib/ssd1306.c
 )
 
