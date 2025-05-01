@@ -1,1 +1,19 @@
-build
+# Ignorar pasta de build gerada pelo CMake
+/build/
+/.vscode/
+
+# Ignorar arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos do VSCode e extensões Pico SDK automáticas
+*.code-workspace
+*.swp
+
+# Arquivo automático da extensão do Pico no VSCode
+pico_sdk_import.cmake
+
+# Arquivos de backup ou log
+*.log
+*.bak
+*.tmp
