@@ -42,6 +42,7 @@ target_link_libraries(${PROJECT_NAME}
     hardware_gpio
     hardware_i2c
     hardware_pio # Biblioteca para PIO (WS2812)
+    hardware_pwm # Adicionado para suporte ao PWM dos buzzers
     FreeRTOS-Kernel 
     FreeRTOS-Kernel-Heap4
 )
